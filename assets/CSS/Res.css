@@ -56,11 +56,6 @@
     margin-top: 20px;
   }
 
-  .searchSave-search select{
-    margin-bottom: 10px;
-  }
-
-  
 
 }
 
@@ -92,9 +87,7 @@
   .searchTwo-box-view {
     font-size: 1.6rem;
   }
-  .searchTwo-box-delete i{
-    font-size: 3rem;
-  }
+
 }
 
 @media screen and (max-width: 576px) {
