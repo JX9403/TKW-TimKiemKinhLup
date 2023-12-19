@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* SearchTwo*/
+.searchTwo{
+  background-color: var(--color-pink);
+  padding: 30px 0;
+  padding-top: 150px;
+}
+
+.nganHangDeBox{
+  display: none;
+}
+
+.giaoTrinhBox{
+  display: none;
+}
+
+.slidesBox{
+  display: none;
+}
+
+.searchTwo-nav{
+  border-bottom: 2px solid var(--color-black);
+  margin-bottom: 30px;
+ 
+}
+
+.searchTwo-nav-item{
+  position: relative;
+}
+
+.searchTwo-nav-item a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  font-size: 1.8rem;
+  text-align: center;
+  cursor: pointer;
+  padding-bottom: 20px;
+}
+
+.searchTwo-nav-item--select{
+  position:absolute;
+  top: 2px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom: 5px solid var(--color-red);
+  display: none;
+}
+
+.searchTwo-nav-item a:hover {
+  text-decoration: none;
+  color: var(--color-red);
+}
+
+.searchTwo-nav-item a:focus + .searchTwo-nav-item--select{
+  display: inline-block;
+}
+
+.searchTwo-nav-item a:focus {
+  color : var(--color-red);
+}
+
+
+/* .searchTwo-main{
+
+} */
+.searchTwo-box{
+  background-color: var(--color-white);
+  border-radius: 8px;
+  padding: 14px;
+  margin-bottom: 30px;
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+  border: .1px solid  rgba(0, 0, 0, 0.2);
+  
+}
+.searchTwo-box-img{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.searchTwo-box-img img{
+  width: 100%;
+}
+.searchTwo-box-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+.searchTwo-box-title{
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+
+.searchTwo-box-desc{
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+.searchTwo-box-view{
+  font-size: 1.8rem;
+  color: var(--color-red);
+
+}
+.searchTwo-box-save{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchTwo-box-save i{
+  font-size: 3rem;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+/* End SearchTwo */
+
+
+/* JS */
+
+.show {
+  display: flex;
+}
+
+.notShow{
+  display: none;
+}
