@@ -41,6 +41,8 @@
 
   .header-khoa-wrap {
     width: 720px;
+    max-height: 300px;
+    overflow: scroll;
   }
   .header-khoa-title {
     margin-left: 10px;
@@ -111,6 +113,13 @@
 
   .header-noti-list {
     right: 0;
+  }
+  .header-khoa-wrap{
+    padding: 30px 50px;
+  }
+
+  .header-khoa-wrap a{
+    font-size: 1.4rem;
   }
 
   .acc-box {
