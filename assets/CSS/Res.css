@@ -57,8 +57,6 @@
   .footer-content-map {
     margin-top: 20px;
   }
-
-
 }
 
 @media screen and (max-width: 768px) {
@@ -73,23 +71,22 @@
   .header-search {
     width: 300px;
   }
-  .searchTwo{
+  .searchTwo {
     padding-top: 130px;
   }
-  .searchTwo-nav-item a{
+  .searchTwo-nav-item a {
     font-size: 1.6rem;
   }
 
-  .searchTwo-box-title{
+  .searchTwo-box-title {
     font-size: 1.6rem;
   }
-  .searchTwo-box-desc{
+  .searchTwo-box-desc {
     font-size: 1.6rem;
   }
   .searchTwo-box-view {
     font-size: 1.6rem;
   }
-
 }
 
 @media screen and (max-width: 576px) {
@@ -114,19 +111,17 @@
   .header-noti-list {
     right: 0;
   }
-  .header-khoa-wrap{
+  .header-khoa-wrap {
     padding: 30px 50px;
   }
 
-  .header-khoa-wrap a{
+  .header-khoa-wrap a {
     font-size: 1.4rem;
   }
 
   .acc-box {
     right: 0;
   }
-
-
 }
 
 @media screen and (max-width: 480px) {
@@ -152,31 +147,44 @@
     right: -98px;
   }
 
-
   .btn-c {
     margin: 8px;
   }
-  .searchTwo-box-title{
+  .searchTwo-box-title {
     font-size: 1.4rem;
     margin-bottom: 5px;
   }
-  .searchTwo-box-desc{
+  .searchTwo-box-desc {
     font-size: 1.4rem;
     margin-bottom: 5px;
   }
   .searchTwo-box-view {
     font-size: 1.4rem;
-    
   }
-  .searchTwo-box-content{
+  .searchTwo-box-content {
     padding: 0;
   }
-  .searchTwo-box-save i{
+  .searchTwo-box-save i {
     font-size: 2rem;
-    margin-right: 8px;
+    margin-right: 16px;
   }
-  
-  .searchTwo-nav-item a{
+
+  .searchTwo-nav-item a {
     font-size: 1.4rem;
+  }
+
+  /* popup */
+
+  .popup {
+    bottom: 14px;
+    width: 80%;
+    left: 70px;
+    height: 80px;
+  }
+  .popup h2 {
+    font-size: 1.8rem;
+  }
+  .popup i {
+    font-size: 2rem;
   }
 }

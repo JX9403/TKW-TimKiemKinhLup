@@ -188,3 +188,52 @@ ul{
 /* End Form  */
 
 
+/* popup */
+
+.overlay {
+  position: fixed;
+  width: 354px;
+  height: 84px;
+  bottom: 36px;
+  right: 36px;
+  transition: opacity 800ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 999;
+
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  padding: 26px 40px 24px 15px;
+  background: #fff;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.popup h2 {
+  color: #333;
+  font-size: 2.2rem;
+  margin:0;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup i{
+  margin-right: 10px;
+  font-size: 2.4rem;
+  color: var(--color-blue);
+}
