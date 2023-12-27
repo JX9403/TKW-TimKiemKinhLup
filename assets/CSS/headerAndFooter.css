@@ -187,10 +187,10 @@
   background-color: var(--color-white);
   border-radius: 5px;
   padding: 30px 30px;
-  max-height: 700px;
+  max-height: 460px;
   display: none;
   z-index: 999;
-  overflow-y: hidden;
+  overflow-y: scroll;
 }
 
 .noti-title {
@@ -202,9 +202,16 @@
 .noti-item {
   display: flex;
   padding-bottom: 10px;
+  align-items: center;
 }
 .noti-img {
-  width: 20%;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+
+}
+.noti-content{
+  flex: 1;
 }
 .noti-img img {
   width: 100%;
@@ -235,7 +242,7 @@
 
 .acc-box {
   position: absolute;
-  top: 82px;
+  top: 92px;
   right: 0;
   width: 320px;
   box-shadow: #32326926 0px 2px 5px 0px, #0000000d 0px 1px 1px 0px;
@@ -313,4 +320,3 @@
   aspect-ratio: 16/9;
 }
 /* End Footer */
-
