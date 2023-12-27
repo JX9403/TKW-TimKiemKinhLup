@@ -125,7 +125,9 @@
   .header-khoa-wrap a {
     font-size: 1.4rem;
   }
-
+  .number-res{
+    font-size: 1.2rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
